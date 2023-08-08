@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Men Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="./src/images/logo.svg" alt="logo x-men">
+    </header>
+
+    <main class="character-selection">
+        <section class="characters">
+            <h1 class="title">Pick a Character</h1>
+            <ul class="characters-list">
+                <li class="character selected" id="cyclops" data-name="Cyclops" data-description="He has the power of generating concussive
+                force-based, red-colored beams from his eyes.">
+                    <img src="./src/images/card-cyclops.jpg" alt="character cyclops">
+                </li>
+
+                <li class="character" id="jean-grey" data-name="Jean Grey"
+                    data-description=" She is an evolved mutant, also known as Dark Phoenix, with powerful telekinetic and telepathic abilities">
+                    <img src="./src/images/card-jean-grey.jpg" alt="character jean grey">
+                </li>
+
+                <li class="character" id="wolverine" data-name="Wolverine"
+                    data-description="He has an entire host of powers, among them, are the ability of healing factor, adamantium metal claws and animal-keen senses">
+                    <img src="./src/images/card-wolverine.jpg" alt="character wolverine">
+                </li>
+
+                <li class="character" id="storm" data-name="Storm"
+                    data-description="She is a powerful mutant with weather-manipulating abilities, immune to extreme temperatures and able to generate and manipulate electrical energy">
+                    <img src="./src/images/card-storm.jpg" alt="character storm">
+                </li>
+
+                <li class="character" id="rogue" data-name="Rogue"
+                    data-description="She has the power of absorb powers, physical talents, personality traits and memories through her touch skin-to-skin">
+                    <img src="./src/images/card-rogue.jpg" alt="character rogue">
+                </li>
+
+                <li class="character" id="nightcrawler" data-name="Nightcrawler"
+                    data-description="He has the ability to teleport himself, his clothing, and a certain amount of additional mass from one point to another virtually instantaneously">
+                    <img src="./src/images/card-nightcrawler.jpg" alt="character nightcrawler">
+                </li>
+
+                <li class="character" id="shadowcat" data-name="Shadowcat"
+                    data-description="She has the ability to pass through solid matter and objects by passing her atoms through the spaces between the atoms of the object through which she is moving">
+                    <img src="./src/images/card-shadowcat.jpg" alt="character shadowcat">
+                </li>
+
+                <li class="character" id="magneto" data-name="Magneto"
+                    data-description="He can manipulate the forces of gravity and magnetism for other objects and people">
+                    <img src="./src/images/card-magneto.jpg" alt="character magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="selected-character">
+            <img class="character-full-image" src="./src/images/card-cyclops.png" alt="selected-character">
+
+            <div class="character-info">
+                <h2 class="character-name" id="character-name">Cyclops</h2>
+                <p class="character-description" id="character-description">He has the power of generating concussive
+                    force-based, red-colored beams from his eyes</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
